@@ -1,6 +1,6 @@
 <?php require_once "header.php"; ?>
 
-<?php
+<?php 
 
 $formData = array("id" => "", "unvan" => "" );
 if (isset($_GET['islem'])) {
