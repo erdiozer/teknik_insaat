@@ -43,9 +43,6 @@ if (isset($_POST['cariekle'])) {
     $cariAdSoyad = $_POST['cari_adsoyad'];
     $cariUnvan = $_POST['cari_unvan'];
     if ($_FILES['cari_resim']['error'] == 0) {
-        // echo "Dosya yüklendi";
-        // echo "<pre>";
-        // print_r($_FILES['cari_resim']);
         
         $gecici_isim = $_FILES['cari_resim']['tmp_name'];
         $dosya_ismi = $_FILES['cari_resim']['name'];
